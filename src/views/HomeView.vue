@@ -1,18 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Header />
+  <Process />
+  <Benefit />
+  <Pricelist />
+  <TestimonyVue />
+  <MediapartnerVue />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Header from "@/components/Header.vue";
+import Process from "@/components/Prosess.vue";
+import Benefit from "@/components/Benefit.vue";
+import Pricelist from "@/components/Pricelist.vue";
+import TestimonyVue from "@/components/Testimony.vue";
+import MediapartnerVue from "@/components/Mediapartner.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    Process,
+    Benefit,
+    Pricelist,
+    TestimonyVue,
+    MediapartnerVue,
+  },
+  mounted() {
+    localStorage.removeItem("relatedprice");
+  },
+};
 </script>
