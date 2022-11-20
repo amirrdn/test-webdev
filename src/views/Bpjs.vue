@@ -1,4 +1,7 @@
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">{{ title }} - GajiHub</template>
+  </metainfo>
   <article id="header">
     <div class="container pt-5 pb-5 pb-md-3">
       <div class="row">
@@ -178,14 +181,56 @@
   </article>
 </template>
 <script>
-import $ from "jquery";
+import { watch } from "vue";
+import { useMeta, useActiveMeta } from "vue-meta";
 
 export default {
+  setup() {
+    const { meta } = useMeta({
+      base: { href: window.location.origin, target: "_blank" },
+      charset: "utf8",
+      title: "My Title",
+      description: "The Description",
+      og: {
+        title: "Og Title",
+        description: "Bla bla",
+        type: "article",
+        url: "",
+        site_name:
+          "Software Payroll &amp; HRIS Terbaik &amp; Gratis di Indonesia - Gajihub",
+        card: "summary_large_image",
+        image: [],
+      },
+      twitter: {
+        title: "Twitter Title",
+      },
+
+      htmlAttrs: {
+        amp: true,
+        lang: ["id"],
+      },
+    });
+
+    setTimeout(() => (meta.title = "My Updated Title"), 2000);
+
+    const metadata = useActiveMeta();
+
+    watch(metadata, (newValue) => {
+      //console.log("META UPDATED", newValue);
+    });
+
+    return {
+      metadata,
+    };
+  },
   data() {
     return {
       limitPosition: 100,
       scrolled: false,
       lastPosition: 0,
+      title: "Kelola BPJS Lebih Mudah dengan Software HRIS dan Payroll Gajihub",
+      description:
+        "Fitur BPJS di Gajihub memudahkan Anda dalam menghitung potongan BPJS ketenagakerjaan dengan sangat mudah dan praktis",
     };
   },
   mounted() {
@@ -193,15 +238,12 @@ export default {
       nav.classList.add("navbar-light");
       nav.classList.remove("navbar-dark");
     });
-    /*
-        const plugin = document.createElement("script");
-        plugin.setAttribute(
-          "src",
-          "https://unpkg.com/codyhouse-framework/main/assets/js/util.js"
-        );
-        plugin.async = true;
-        document.head.appendChild(plugin);
-        */
+    this.metadata.og.description = this.description;
+    this.metadata.description = this.description;
+    this.metadata.og.title = this.title;
+    this.metadata.og.url = window.location.origin + "" + this.$route.path;
+    this.metadata.og.image =
+      "https://gajihub.com/wp-content/uploads/2022/09/bpjs-ketenagakerjaan-1.png";
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);

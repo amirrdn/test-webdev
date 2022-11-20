@@ -6,9 +6,9 @@
     <div class="container pt-5 pb-5 pb-md-3">
       <div class="row">
         <div class="col-12 col-md-11 col-lg-10 col-xl-9 mx-auto">
-          <h1 class="fs-1 text-break text-center mb-0">Kelola PPh 21</h1>
+          <h1 class="fs-1 text-break text-center mb-0">Akuntansi</h1>
           <p class="fs-6 opacity-7 text-break text-center mt-2 mb-0 mx-md-5">
-            Hitung Pajak Penghasilan Karyawan Anda Lebih Mudah dan Praktis
+            Solusi Menyeluruh untuk Kebutuhan HR dan Akuntansi dalam Bisnis Anda
           </p>
           <div class="text-center my-4">
             <a
@@ -53,7 +53,7 @@
                 <div class="col-md-7 order-md-2">
                   <img
                     class="alignnone wp-image-762 size-full"
-                    src="https://gajihub.com/wp-content/uploads/2022/09/pengaturan-pajak-1.png"
+                    src="https://gajihub.com/wp-content/uploads/2022/09/integrasi-Kledo-1-1536x586.png"
                     alt="payroll gajihub 3 (1)"
                     width="1895"
                     height="800"
@@ -63,13 +63,26 @@
                 <div class="col-md-5 order-md-1 d-flex align-items-center">
                   <div class="text-center text-md-left mb-2 mt-3 mt-md-2">
                     <h3 class="fs-3 text-break mb-3">
-                      Perhitungan PPh 21/26 (PKWT/PKWTT)
+                      Terintegrasi Sempurna dengan Software Akuntansi Kledo
                     </h3>
                     <p class="fs-6 opacity-5 text-break">
-                      Dengan GajiHub, Anda bisa menghitung PPh 21 dengan berbagai metode
-                      pemotongan pajak (gross, gross up, nett, campuran) secara akurat dan
-                      otomatis
+                      Apa saja keuntungan yang akan kamu dapatkan dengan integrasi ini ?
                     </p>
+                    <ul class="list-disc">
+                      <li>Penggajian karyawan otomatis tercatat di Kledo.</li>
+                      <li>
+                        Hutang piutang karyawan dan pembayaran cicilan otomatis tercatat
+                        ke software akuntansi Kledo.
+                      </li>
+                      <li>
+                        Pegawai di GajiHub juga otomatis tercatat sebagai pegawai di
+                        Kledo.
+                      </li>
+                      <li>
+                        Inventaris kantor di GajiHub tercatat di Kledo secara otomatis dan
+                        bisa Anda lakukan depresiasi.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -87,7 +100,7 @@
                   <img
                     loading="lazy"
                     class="alignnone wp-image-761 size-full"
-                    src="https://gajihub.com/wp-content/uploads/2022/09/pajak-pendapatan-1-1536x665.png"
+                    src="https://gajihub.com/wp-content/uploads/2022/09/integrasi-kledo-2-1536x558.png"
                     alt="payroll gajihub gambar 2 (1)"
                     width="1905"
                     height="807"
@@ -96,76 +109,12 @@
                 </div>
                 <div class="col-md-5 order-md-1 d-flex align-items-center">
                   <div class="text-center text-md-left mb-2 mt-3 mt-md-2">
-                    <h3 class="fs-3 text-break mb-3">Bonus dan Insentif</h3>
+                    <h3 class="fs-3 text-break mb-3">Akses Dimana Saja dan Kapan Saja</h3>
                     <p class="fs-6 opacity-5 text-break">
-                      Anda juga akan dengan mudah menghitung bonus dan insentif yang
-                      diterima karyawan, berikut pemotongan pajak dan penyesuaian laporan
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-stack-item mb-4 scroll-cards__item">
-          <div
-            class="card p-2 p-md-3 rounded-2 border-0 shadow"
-            style="transform: translateY(calc(0rem)) scale(calc(1))"
-          >
-            <div class="card-body" style="opacity: calc(1)">
-              <div class="row">
-                <div class="col-md-7 order-md-2">
-                  <img
-                    loading="lazy"
-                    class="alignnone wp-image-763 size-full"
-                    src="https://gajihub.com/wp-content/uploads/2022/09/terintegrasi-pajak-1-1536x612.png"
-                    alt="laporan gaji (1)"
-                    width="1918"
-                    height="791"
-                    sizes="(max-width: 1918px) 100vw, 1918px"
-                  />
-                </div>
-                <div class="col-md-5 order-md-1 d-flex align-items-center">
-                  <div class="text-center text-md-left mb-2 mt-3 mt-md-2">
-                    <h3 class="fs-3 text-break mb-3">
-                      Terintegrasi dengan Fitur Payroll
-                    </h3>
-                    <p class="fs-6 opacity-5 text-break">
-                      Rekap dan hitung otomatis seluruh penghitungan perpajakan ke dalam
-                      sistem payroll dengan satu platform yang saling terintegrasi.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-stack-item mb-4 scroll-cards__item">
-          <div
-            class="card p-2 p-md-3 rounded-2 border-0 shadow"
-            style="transform: translateY(calc(0rem)) scale(calc(1))"
-          >
-            <div class="card-body" style="opacity: calc(1)">
-              <div class="row">
-                <div class="col-md-7 order-md-2">
-                  <img
-                    loading="lazy"
-                    class="alignnone wp-image-778 size-full"
-                    src="https://gajihub.com/wp-content/uploads/2022/09/laporan-pajak-1-1536x655.png"
-                    alt="slip gaji fix (1)"
-                    width="1917"
-                    height="732"
-                    sizes="(max-width: 1917px) 100vw, 1917px"
-                  />
-                </div>
-                <div class="col-md-5 order-md-1 d-flex align-items-center">
-                  <div class="text-center text-md-left mb-2 mt-3 mt-md-2">
-                    <h3 class="fs-3 text-break mb-3">
-                      Unduh Laporan e-SPT PPH 21/26 dengan Mudah
-                    </h3>
-                    <p class="fs-6 opacity-5 text-break">
-                      Semua pajak penghasilan akan direkap menjadi laporan pajak 1721
-                      secara otomatis, lengkap beserta data karyawan dan nilainya.
+                      Dengan integrasi ini, Anda bisa mengelola sistem HR sekaligus proses
+                      akuntansi dalam bisnis dari mana saja baik melalui PC , laptop, atau
+                      aplikasi smartphone yang bisa Anda unduh langsung melalui Playstore
+                      atau Appstore
                     </p>
                   </div>
                 </div>
@@ -225,9 +174,9 @@ export default {
       limitPosition: 100,
       scrolled: false,
       lastPosition: 0,
-      title: "Fitur Pengelolaan PPh 21 dari Software Payroll dan HRIS Terbaik - Gajihub",
+      title: "Fitur Akuntansi dari Software Payroll dan HRIS Gajihub",
       description:
-        "Fitur pph21 di Gajihub memudahkan Anda dalam menghitung pajak penghasilan karyawan dengan lebih mudah dan praktis,",
+        "Fitur akuntansi di Gajihub memudahkan Anda dalam mengelola akuntansi dan pembukuan bisnis dengan mudah dan praktis",
     };
   },
   mounted() {
@@ -240,7 +189,7 @@ export default {
     this.metadata.og.title = this.title;
     this.metadata.og.url = window.location.origin + "" + this.$route.path;
     this.metadata.og.image =
-      "https://gajihub.com/wp-content/uploads/2022/09/pengaturan-pajak-1.png";
+      "https://gajihub.com/wp-content/uploads/2022/09/bpjs-ketenagakerjaan-1.png";
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);

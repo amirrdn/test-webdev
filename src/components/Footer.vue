@@ -208,8 +208,10 @@
                 <p class="fs-6 font-weight-bold mb-3 text-uppercase">Tentang Kami</p>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item bg-transparent border-0 p-0 mb-3">
-                    <a class="text-decoration-none text-white opacity-8" href="/tentang/"
-                      >Tentang</a
+                    <router-link
+                      :to="{ name: 'about' }"
+                      class="text-decoration-none text-white opacity-8"
+                      >Tentang</router-link
                     >
                   </li>
                   <li class="list-group-item bg-transparent border-0 p-0 mb-3">

@@ -123,7 +123,9 @@
                 >
               </li>
               <li>
-                <router-link to="/" class="dropdown-item ws-init">Akuntansi</router-link>
+                <router-link :to="{ name: 'akuntansi' }" class="dropdown-item ws-init"
+                  >Akuntansi</router-link
+                >
               </li>
               <li>
                 <router-link to="/" class="dropdown-item ws-init"

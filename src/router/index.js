@@ -29,6 +29,16 @@ const routes = [
           component: () => import('../views/Bpjs.vue')
         },
         {
+          path: '/akuntansi.html',
+          name: 'akuntansi',
+          component: () => import('../views/Acounting.vue')
+        },
+        {
+          path: '/tentang-gajihub.html',
+          name: 'about',
+          component: () => import('../views/AboutView.vue')
+        },
+        {
           path: '/register.html',
           name: 'register',
           component: () => import('../views/Register.vue')

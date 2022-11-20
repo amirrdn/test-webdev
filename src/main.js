@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'primevue/resources/primevue.min.css';
-import 'primeicons/primeicons.css';
+//import 'primeicons/primeicons.css';
 
 import { createApp, reactive } from 'vue';
 //import App from './App.vue'
@@ -91,7 +91,7 @@ import Tree from 'primevue/tree';
 import TreeSelect from 'primevue/treeselect';
 import TreeTable from 'primevue/treetable';
 import TriStateCheckbox from 'primevue/tristatecheckbox';
-
+import { createMetaManager } from 'vue-meta';
 
 
 router.beforeEach(function(to, from, next) {
@@ -105,7 +105,7 @@ const app = createApp(AppWrapper);
 app.use(PrimeVue, { ripple: true, inputStyle: 'outlined' });
 app.use(ConfirmationService);
 app.use(ToastService);
-
+app.use(createMetaManager());
 
 app.use(router);
 app.directive('tooltip', Tooltip);
@@ -190,6 +190,7 @@ app.component('Tree', Tree);
 app.component('TreeSelect', TreeSelect);
 app.component('TreeTable', TreeTable);
 app.component('TriStateCheckbox', TriStateCheckbox);
+
 
 import "../src/assets/style.css"
 router.isReady().then(() => app.mount("#app"));

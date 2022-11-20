@@ -1847,3 +1847,13 @@ section {
 select {
     word-wrap: normal;
 }
+#section-1 .parallax:before {
+    background-size: calc(100vmax + 261px);
+    background-position-y: -391.5px;
+}
+.parallax-0:before {
+    background-image: url('https://kledo.com/wp-content/uploads/2020/05/kledo-building.jpg');
+}
+#section-1 {
+    background-color: rgba(229,62,106,.85) !important;
+}
